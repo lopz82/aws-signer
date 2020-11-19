@@ -1,0 +1,10 @@
+displayName: AWS Signature Plugin
+type: middleware
+
+import: github.com/lopz82/aws-signature
+
+summary: 'Add authentication information to AWS requests sent by HTTP'
+
+testData:
+  Service: es
+  Region: eu-central-1
